@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+.main img {
+    height: 440px;
+}
+
+
+body, 
+input, 
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    background-color:rgb(18, 17, 24);
+    color: rgb(184, 68, 68);
+}
+
+header nav li {  
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    font-size: 16px;
+    color: rgb(184, 68, 68);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partners img {
+    height: 72px;
+}
+
+.partners li {
+    display:inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 12px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color:rgb(184, 68, 68);
+}
+
+section img {
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
+.front-img {
+    margin-top: 1px;
+    margin-right: 16px;
+}
+
+.social-links img {
+    height: 220px;
+}
+
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(184, 68, 68);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(185, 51, 51);
+}
+
+footer {
+    background-color:rgb(18, 17, 24);
+    color: rgb(184, 68, 68);
+    padding: 16px;
+}
+
+.location img {
+    height: 62px;
+}
